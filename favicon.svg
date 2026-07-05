@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100">
+  <rect width="100" height="100" rx="22" fill="#8b4513"/>
+  <!-- Soup Bowl -->
+  <path d="M25 46 C25 68, 75 68, 75 46 Z" fill="#f5f0e8"/>
+  <!-- Rim of the bowl -->
+  <rect x="20" y="41" width="60" height="6" rx="3" fill="#c17a3a"/>
+  <!-- Spoon/Steam -->
+  <path d="M40 33 C42 22, 58 22, 60 28" stroke="#f5f0e8" stroke-width="4" stroke-linecap="round" fill="none"/>
+</svg>

@@ -1,0 +1,8 @@
+node_modules
+worker
+.wrangler
+.git
+.gitattributes
+.gitignore
+README.md
+extract_pdf.py

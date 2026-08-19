@@ -589,10 +589,11 @@ async function checkAnswer(questionId) {
 
         updateProgress();
 
+        const safeFeedback = String(feedback).replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;').replace(/"/g, '&quot;');
         feedbackDiv.innerHTML = `
             <div class="feedback-card ${feedbackClass}">
                 <span class="feedback-label"><span class="feedback-icon">${icon}</span> ${label}</span>
-                ${feedback}
+                ${safeFeedback}
             </div>
         `;
         feedbackDiv.classList.add('visible');
